@@ -1,0 +1,47 @@
+{"intents": [
+	{"tag": "saludos",
+	"patterns": ["hola", "hi", "buen dia", "buenos dias", "buenas tardes", "buenas noches", "saludos", "hola, que tal?"],
+	"responses": ["Hola!", "Hola, como puedo ayudarte?"]
+	},	
+	{"tag": "adios",
+	"patterns": ["hasta luego", "adios", "chau", "nos vemos", "hasta la proxima"],
+	"responses": ["Adios, hasta la proxima", "Gracias por su visita, adios","Adios!"]
+	},
+	{"tag": "boletos",
+	"patterns": ["¿Cuál es el precio de los boletos?", "¿A como esta los boletos?", "¿Cuanto cuesta los boletos?", "Quisiera saber el precio de los boletos", "cuanto estan las entradas", "precio de las entradas", "cual es el precio de las entradas?"],
+	"responses": ["El precio es S./ 7.00", "S./ 7.00"]
+	},
+	{"tag": "estrenos",
+	"patterns": ["¿Cuales son las peliculas en estreno?", "¿Qué peliculas estan en estreno?", "Dime que peliculas estan en estreno"],
+	"responses":["Las peliculas en estre son: Disomnia, Voyagers, Conjuro 3, Cruella y Dancing Queens", "Disomnia, Voyagers, Conjuro 3, Cruella y Dancing Queens"]
+	},
+	{"tag": "peliculaterror",
+	"patterns": ["¿Que peliculas son de genero terror?", "peliculas de genero terror", "dime que peliculas son de genero terror"],
+	"responses":["Conjuro 3", "Compullsion", "Harpoon"]
+	},
+	{"tag": "peliculacomedia",
+	"patterns": ["¿Que peliculas son de genero comedia?", "peliculas de genero comedia", "dime que peliculas son de genero comedia"],
+	"responses":["Carnaval", "Dancing Queens", "Driven", "Gold Dust"]
+	},
+	{"tag": "peliculaaccion",
+	"patterns": ["¿Que peliculas son de genero accion?", "peliculas de genero accion", "dime que peliculas son de genero accion"],
+	"responses":["Los federales", "Xtremo", "Beckman", "Little Hours"]
+	},
+	{"tag": "peliculadrama",
+	"patterns": ["¿Que peliculas son de genero drama?", "peliculas de genero drama", "dime que peliculas son de genero drama"],
+	"responses":["Oliver Twist", "Synchronic", "Antebellum", "Centigrade"]
+	},
+	{"tag": "peliculamisterio",
+	"patterns": ["¿Que peliculas son de genero misterio?", "peliculas de genero misterio", "dime que peliculas son de genero misterio"],
+	"responses":["La maldición", "Cherry Falls", "Velvet Buzzsaw", "El reino"]
+	},
+	{"tag": "pelicularomance",
+	"patterns": ["¿Que peliculas son de genero romance?", "peliculas de genero romance", "dime que peliculas son de genero romance"],
+	"responses":["Voyagers", "Berlin Occidente", "White Snake", "Waves"]
+	},
+	{"tag": "peliculascifi",
+	"patterns": ["¿Que peliculas son de genero ciencia y ficción?", "peliculas de genero ciencia y ficción", "dime que peliculas son de genero ciencia y ficción"],
+	"responses":["Disomnia", "El experimento fantasma", "Extinsion", "Godzilla"]
+	}
+]}
+
